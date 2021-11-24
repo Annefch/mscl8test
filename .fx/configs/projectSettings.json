@@ -1,0 +1,24 @@
+{
+    "appName": "Annetabjs11241149",
+    "projectId": "e3ed2429-d659-4562-b2ef-8fadff8473b8",
+    "solutionSettings": {
+        "name": "fx-solution-azure",
+        "version": "1.0.0",
+        "hostType": "Azure",
+        "azureResources": [],
+        "capabilities": [
+            "Tab"
+        ],
+        "activeResourcePlugins": [
+            "fx-resource-frontend-hosting",
+            "fx-resource-identity",
+            "fx-resource-aad-app-for-teams",
+            "fx-resource-local-debug",
+            "fx-resource-appstudio",
+            "fx-resource-simple-auth"
+        ]
+    },
+    "version": "1.0.0",
+    "isFromSample": false,
+    "programmingLanguage": "javascript"
+}

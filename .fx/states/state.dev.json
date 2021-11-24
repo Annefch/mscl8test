@@ -1,0 +1,39 @@
+{
+    "solution": {
+        "resourceNameSuffix": "4808d8",
+        "resourceGroupName": "Annetabjs11241149-dev-rg",
+        "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "subscriptionId": "1756abc0-3554-4341-8d6a-46674962ea19",
+        "subscriptionName": "Teams Cloud - Dev Test with TTL = 7 Days",
+        "location": "East US 2",
+        "teamsAppTenantId": "{{solution.teamsAppTenantId}}",
+        "provisionSucceeded": true
+    },
+    "fx-resource-appstudio": {
+        "teamsAppId": "9b4c4c35-3781-4c4d-9120-534ccbb487ec"
+    },
+    "fx-resource-frontend-hosting": {
+        "domain": "annetabjs1dev140d76tab.z20.web.core.windows.net",
+        "endpoint": "https://annetabjs1dev140d76tab.z20.web.core.windows.net",
+        "storageResourceId": "/subscriptions/1756abc0-3554-4341-8d6a-46674962ea19/resourceGroups/Annetabjs11241149-dev-rg/providers/Microsoft.Storage/storageAccounts/annetabjs1dev140d76tab"
+    },
+    "fx-resource-identity": {
+        "identityName": "annetabjs1dev140d76",
+        "identityResourceId": "/subscriptions/1756abc0-3554-4341-8d6a-46674962ea19/resourceGroups/Annetabjs11241149-dev-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/annetabjs1dev140d76",
+        "identityClientId": "052b4712-bf56-4f12-aff6-f00c615fa5ff"
+    },
+    "fx-resource-aad-app-for-teams": {
+        "clientId": "acd100f5-ee3f-4863-8920-cd7e53a0afa2",
+        "clientSecret": "{{fx-resource-aad-app-for-teams.clientSecret}}",
+        "objectId": "9a760cee-2908-42d0-a00d-eeaf281ad90f",
+        "oauth2PermissionScopeId": "48829a7a-539c-408a-aeb4-83bfe719f7bf",
+        "tenantId": "64b729bf-4b0b-4557-8a2f-7730615aa501",
+        "oauthHost": "https://login.microsoftonline.com",
+        "oauthAuthority": "https://login.microsoftonline.com/64b729bf-4b0b-4557-8a2f-7730615aa501",
+        "applicationIdUris": "api://annetabjs1dev140d76tab.z20.web.core.windows.net/acd100f5-ee3f-4863-8920-cd7e53a0afa2"
+    },
+    "fx-resource-simple-auth": {
+        "endpoint": "https://annetabjs1dev140d76simpleauth.azurewebsites.net",
+        "webAppResourceId": "/subscriptions/1756abc0-3554-4341-8d6a-46674962ea19/resourceGroups/Annetabjs11241149-dev-rg/providers/Microsoft.Web/sites/annetabjs1dev140d76simpleAuth"
+    }
+}
